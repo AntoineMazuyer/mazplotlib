@@ -1,18 +1,18 @@
-= MazPlotLib =
+# MazPlotLib
 
 Easy and tweakable python tools to draw plots.
 
-== Disclaimer == 
+## Disclaimer
 This is a _work in progress_ project that compiles tools that I use during my PhD to easy draw plots
 from CSV style files. It is certainly not complete and not robust to all the (bad) things you can 
 do with it.
 
-== Dependencies ==
+## Dependencies
 
  * Python 2.7
  * Matplotlib
 
-== File Description ==
+## File Description
 
  * mazplotlib.py : Contains all the function to be called to draw plots
  * tools.py      : Contains some useful functions for mazplotlib
