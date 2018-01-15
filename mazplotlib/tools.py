@@ -8,7 +8,7 @@ Licence: BSD 3-Clause License
 This file contains some tools useful for all the plot functions
 """
 
-def csv_style_file_reader(file_path, delimiter="", column_title=True):
+def csv_style_file_reader(file_path, delimiter=None, column_title=True):
     """
     Read a csv style file and load its contents
 

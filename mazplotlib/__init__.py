@@ -1,0 +1,1 @@
+from mazplotlib import scatter

@@ -1,1 +1,3 @@
 *.pyc
+setup.cfg
+setup.py
