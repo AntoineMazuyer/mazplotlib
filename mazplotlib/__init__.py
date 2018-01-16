@@ -1,1 +1,1 @@
-from mazplotlib import scatter
+from mazplotlib import plot

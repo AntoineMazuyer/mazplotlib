@@ -53,7 +53,8 @@ def csv_style_file_reader(file_path, delimiter=None, column_title=True):
 
     for line in the_file:
         split_line = line.split(delimiter)
-        for i in range (nb_columns):
-            columns[i].append( float(split_line[i]))
+        if len(split_line) != 0:
+            for i in range (nb_columns):
+                columns[i].append( float(split_line[i]))
 
     return column_titles, columns
