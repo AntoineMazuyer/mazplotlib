@@ -59,7 +59,7 @@ def plot(
         if i != x_column:
             ax.plot(columns[x_column],columns[i],label=column_titles[i], linewidth=line_width)
     if display_legend:
-        legend = ax.legend()
+        legend = ax.legend(facecolor='w',fancybox=True,frameon=True)
     plt.xlabel(x_label) 
     plt.ylabel(y_label) 
     plt.show()
